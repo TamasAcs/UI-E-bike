@@ -52,18 +52,18 @@ header {
   justify-content: space-between;
   font-weight: bold;
 }
-.nav > ul > li {
-  cursor: pointer;
-}
-.nav > ul > li:hover {
-  color: #43c5f1;
-  border-bottom: 1px solid #43c5f1;
-  padding-bottom: 5px;
-}
 .active {
   color: #43c5f1;
   border-bottom: 1px solid #43c5f1;
   padding-bottom: 5px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.nav a:hover{
+  color: #43c5f1;
+  border-bottom: 1px solid #43c5f1;
 }
 .container {
   width: 30%;
