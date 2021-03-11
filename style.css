@@ -57,11 +57,11 @@ header {
   border-bottom: 1px solid #43c5f1;
   padding-bottom: 5px;
 }
-a{
+a {
   text-decoration: none;
   color: white;
 }
-.nav a:hover{
+.nav a:hover {
   color: #43c5f1;
   border-bottom: 1px solid #43c5f1;
 }

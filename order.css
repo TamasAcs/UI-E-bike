@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  width: 100%;
+  height: 100vh;
+  background: radial-gradient(circle at 50% 50%, #232e3a, #141c24);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.stripe {
+  position: absolute;
+  top: 0;
+  right: 30%;
+  width: 400px;
+  height: 100%;
+  transform: skewX(-30deg);
+  background: #19232c;
+}
+header {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 50px;
+  z-index: 2;
+}
+#logo {
+  width: 100px;
+  cursor: pointer;
+}
+.nav {
+  width: 60%;
+}
+.nav > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.active {
+  color: #43c5f1;
+  border-bottom: 1px solid #43c5f1;
+  padding-bottom: 5px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.nav a:hover {
+  color: #43c5f1;
+  border-bottom: 1px solid #43c5f1;
+}
+
+.social {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+  z-index: 3;
+}
+.social > i {
+  transition: all 0.2s ease-in;
+}
+.social > i:hover {
+  color: #43c5f1;
+  transform: translateY(-3px);
+}
+.dots {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+  left: 30px;
+  top: 200px;
+}
+.far {
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+.fas {
+  color: #43c5f1;
+  cursor: pointer;
+}
+.far:hover {
+  color: #43c5f1;
+  transform: scale(1.2);
+}
+
+.main {
+  position: relative;
+  width: 80%;
+  height: 80vh;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 5;
+}
+.info h1 {
+  padding-bottom: 10px;
+  font-size: 2.5rem;
+}
+.description {
+  padding-bottom: 40px;
+  font-size: 1.5rem;
+}
+.main .info ul li {
+  padding-top: 5px;
+  margin-left: 30px;
+}
+.date {
+  padding-top: 40px;
+  font-size: 1.5rem;
+}
+.pic {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pic h1 {
+  padding: 40px 0px;
+}
+.pic img {
+  width: 500px;
+}
+button {
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-weight: 1000;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  border: none;
+  background: #43c5f1;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  box-shadow: 0px 0px 20px #43c5f1;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .pic img {
+    width: 300px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  body {
+    height: auto;
+  }
+  .nav {
+    display: none;
+  }
+  .main {
+    padding-top: 50px;
+    height: auto;
+    flex-direction: column;
+    top: 0;
+    left: 10%;
+    transform: translate(0, 0);
+  }
+  .info {
+    width: 80%;
+    height: 600px;
+  }
+  .pic {
+    width: 80%;
+    height: 500px;
+  }
+  .pic img {
+    width: 300px;
+  }
+
+  .social {
+    bottom: -320px;
+    padding-bottom: 50px;
+  }
+  .dots {
+    flex-direction: row;
+    height: 0;
+    width: 80%;
+    z-index: 5;
+    top: 100px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+  header {
+    justify-content: center;
+  }
+  .main {
+    width: 90%;
+  }
+  .info {
+    height: 750px;
+  }
+  .pic h1 {
+    padding: 70px 0px;
+  }
+  .stripe {
+    display: none;
+  }
+  .social {
+    bottom: -540px;
+  }
+}
+@media (min-width: 300px) and (max-width: 350px) {
+  .info {
+    height: 750px;
+  }
+  .info h1 {
+    font-size: 2rem;
+  }
+  .pic h1 {
+    font-size: 1.5rem;
+    padding: 50px 0px;
+  }
+  .social {
+    bottom: -530px;
+  }
+  .description {
+    font-size: 1.2rem;
+  }
+  .main .info ul li {
+    font-size: 0.9rem;
+  }
+}
