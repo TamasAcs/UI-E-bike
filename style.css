@@ -490,7 +490,7 @@ a {
   }
   .bike {
     width: 330px;
-    top: 48%;
+    top: 60%;
     right: 5%;
   }
   .logo {
@@ -523,8 +523,7 @@ a {
   }
   .buttons {
     height: 80px;
-    flex-direction: column;
-    align-items: start;
+    align-items: center;
   }
   .learn {
     font-size: 1rem;
@@ -536,7 +535,7 @@ a {
   .details {
     width: 100%;
     right: 0;
-    bottom: 80px;
+    bottom: -60px;
   }
   .bold {
     font-size: 1rem !important;
@@ -551,7 +550,7 @@ a {
     width: 100%;
     padding: 0 30px;
     left: 0;
-    bottom: 30px;
+    bottom: -110px;
   }
   #circle {
     display: none;
