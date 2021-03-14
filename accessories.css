@@ -248,7 +248,7 @@ a {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 400px;
+        margin-top: 500px;
       }
       .pics > img{
         width: 280px;
@@ -298,7 +298,7 @@ a {
     margin-bottom: 20px;
 }
 .social{
-    bottom: -700px;
+    bottom: -950px;
     padding-bottom: 50px;
 }
 header{
