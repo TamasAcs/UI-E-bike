@@ -65,6 +65,12 @@ a {
   color: #43c5f1;
   border-bottom: 1px solid #43c5f1;
 }
+.wrapper {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  height: 110vh;
+}
 .container {
   width: 30%;
   height: 50%;
@@ -390,9 +396,6 @@ a {
   }
 }
 @media (min-width: 401px) and (max-width: 767px) {
-  body {
-    overflow: hidden;
-  }
   header {
     flex-direction: column;
     height: 0;
@@ -477,9 +480,6 @@ a {
 }
 
 @media (max-width: 400px) {
-  body {
-    overflow: hidden;
-  }
   header {
     flex-direction: column;
     height: 0;
@@ -489,10 +489,10 @@ a {
     width: 200px;
   }
   .bike {
-    width: 330px;
-    top: 60%;
-    right: 5%;
-  }
+    width: 280px;
+    top: 50%;
+    right: 9%;
+}
   .logo {
     padding: 20px 0px;
   }
@@ -535,7 +535,7 @@ a {
   .details {
     width: 100%;
     right: 0;
-    bottom: -80px;
+    bottom: 70px;
   }
   .bold {
     font-size: 1rem !important;
@@ -550,7 +550,7 @@ a {
     width: 100%;
     padding: 0 30px;
     left: 0;
-    bottom: -120px;
+    bottom: 20px;
   }
   #circle {
     display: none;
@@ -561,3 +561,4 @@ a {
     display: none;
   }
 }
+

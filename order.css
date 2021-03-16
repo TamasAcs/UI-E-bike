@@ -207,7 +207,7 @@ button:hover {
     justify-content: center;
   }
   .main {
-    width: 90%;
+    width: 100%;
   }
   .info {
     height: 750px;
@@ -224,14 +224,14 @@ button:hover {
 }
 @media (min-width: 300px) and (max-width: 350px) {
   .info {
-    height: 750px;
+    height: 550px;
   }
   .info h1 {
     font-size: 2rem;
   }
   .pic h1 {
     font-size: 1.5rem;
-    padding: 50px 0px;
+    padding: 30px 0px;
   }
   .social {
     bottom: -530px;
