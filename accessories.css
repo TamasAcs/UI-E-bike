@@ -45,8 +45,8 @@ header {
   font-weight: bold;
 }
 .active {
-  color: #43c5f1;
-  border-bottom: 1px solid #43c5f1;
+  color: #686cf8;
+  border-bottom: 1px solid #686cf8;
   padding-bottom: 5px;
 }
 a {
@@ -54,8 +54,8 @@ a {
   color: white;
 }
 .nav a:hover {
-  color: #43c5f1;
-  border-bottom: 1px solid #43c5f1;
+  color: #686cf8;
+  border-bottom: 1px solid #686cf8;
 }
 
 .social {
@@ -72,7 +72,7 @@ a {
   transition: all 0.2s ease-in;
 }
 .social > i:hover {
-  color: #43c5f1;
+  color: #686cf8;
   transform: translateY(-3px);
 }
 .dots {
@@ -90,11 +90,11 @@ a {
   transition: all 0.2s ease-in;
 }
 .fas {
-  color: #43c5f1;
+  color: #686cf8;
   cursor: pointer;
 }
 .far:hover {
-  color: #43c5f1;
+  color: #686cf8;
   transform: scale(1.2);
 }
 .pics {
